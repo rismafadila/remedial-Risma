@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="data"></div>
+<div id="data2"></div>
+<script>
+function kalikanAngka(angka1, angka2)
+{
+    return angka1*angka2; 
+}
+console.log(kalikanAngka(5,20));
+//menampilkan dibrowse
+// document.getElementById('data').innerHTML=kalikanAngka(5,20);
+// //menambah output
+// console.log("Hasil dari perkalian "+angka1+" dengan "+angka2);
+//   return angka1*angka2; 
+fungsiMobil();
+function fungsiMobil()
+{
+    var namaMobil = "Avanza";
+    document.getElementById('data').innerHTML='Pemanggilan di dalam fungsi '+namaMobil;
+}
+//jika perintah ditulis diluar fungsi tidak muncul
+    // document.getElementById('data2').innerHTML='Pemanggilan di luar fungsi '+namaMobil;
+</script>
+</body>
+</html>
